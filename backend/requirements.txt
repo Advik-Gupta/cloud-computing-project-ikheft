@@ -1,0 +1,4 @@
+# Python 3.13+ needs recent pydantic-core wheels; these floors avoid a Rust build.
+fastapi>=0.118
+uvicorn[standard]>=0.35
+pydantic>=2.12
